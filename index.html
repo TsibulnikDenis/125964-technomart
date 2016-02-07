@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Техномарт</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <header>
+        <header class="main-header clearfix">
             <div class="top-menu">
                 <a class="top-menu-logo" href="#">Техномарт</a>
                 <input class="top-menu-search" type="search" value="Поиск:">
@@ -13,17 +14,19 @@
                 <a class="cart" href="#">Корзина:0</a>
                 <a class="order" href="#">Оформить заказ</a>
             </div>
-            <div class="top-menu-info">
-                <p class="top-menu-info-title">
+            <div class="top-menu-info clearfix">
+                <div  class="top-menu-info-title">
+                    <p>
                     Интернет-магазин <br>
                     строительных материалов<br>
                     и инструментов для ремонта
-                </p>
+                    </p>
+                </div>
                 <div class="top-menu-info-contact">
                     <p class="contact-phone">+7(812)555-05-55</p>
                     <p class="contact-address">г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
                 </div>
-                <div>
+                <div class="user-block">
                     <a class="login" href="#">Войти</a>
                     <a class="registr" href="#">Регистрация</a>
                 </div>
@@ -88,8 +91,8 @@
                     <a class="slider-btn" href="#">Открыть каталог</a>
                 </div>
             </section>
-            <section class="product">
-                <div class="popular popular-product">
+            <section class="product clearfix">
+                <div class="popular popular-product clearfix">
                     <h2>популярные товары:</h2>
                     <a class="button-popular" href="#">Все популярные товары</a>
                 </div>
@@ -135,11 +138,11 @@
                 </div>
             </section>
             <section class="bands">
-                <div class="popular popular-brands">
+                <div class="popular popular-brands clearfix">
                     <h2>Популярные производители:</h2>
                     <a class="button-popular" href="#">Все производители</a>
                 </div>
-                <div class="popular-brands">
+                <div class="popular-brands clearfix">
                     <div><img class="img-brands" src="/img/BOSCH.png" alt="brands"></div>
                     <div><img class="img-brands" src="/img/Makita.png" alt="brands"></div>
                     <div><img class="img-brands" src="/img/DeWALT.png" alt="brands"></div>

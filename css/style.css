@@ -4,4 +4,85 @@ body{
     color: #000000;
     font-weight: 400;
     font-family: PTSans;
+    width: 1200px;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.top-menu-info-title{
+    width: 210px;
+    margin-left: 175px;
+    float: left;
+}
+
+.top-menu-info-contact{
+    width: 270;
+    float: left;
+    margin-left: 65px;
+}
+
+.user-block{
+    width: 280;
+    float: left;
+    margin-left: 70px;
+}
+
+.top-menu-info{
+    float: left;
+    margin: auto;
+    width: 1200px;
+}
+.main-menu{
+    width: 940;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.main-menu li{
+    text-decoration: none;
+    float: left;
+    margin-right: 50px;
+    width: 100px;
+    margin-right: 40px;
+    
+}
+
+.popular-product h2{
+    float: left;
+    margin-left: 60px;
+}
+.popular-product a{
+    float: right;
+    margin-right: 60px;
+    
+}
+
+.product-item{
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+}
+
+.product-item01{
+    margin-left: 130Px;
+}
+
+.popular-brands h2{
+    float: left;
+    margin-left: 60px;
+}
+.popular-brands a{
+    float: right;
+    margin-right: 60px;
+}
+
+.img-brands{
+    width: 220px;
+    float: left;
+    margin-right: 20px;
 }
