@@ -50,13 +50,11 @@ main{
     margin-left: 55px;
     float: left;
 }
-
 .top-menu-info-contact{
     width: 270;
     float: left;
     margin-left: 60px;
 }
-
 .user-block{
     width: 280;
     float: left;
@@ -81,9 +79,8 @@ main{
     float: right;
     width: 299px;
     height: 45px;
-    text-align: center
+    text-align: center;
 }
-
 .top-menu-info{
     float: left;
     margin: auto;
@@ -103,9 +100,7 @@ main{
     float: left;
     width: 100px;
     margin-right: 25px;
-    
 }
-
 .popular-product h2{
     float: left;
     margin-left: 60px;
@@ -117,7 +112,6 @@ main{
 .popular{
     width: 940px;
 }
-
 .product-item{
     width: 220px;
     float: left;
@@ -127,8 +121,6 @@ main{
 .product-item-row{
     width: 940px;
 }
-
-
 .popular-brands h2{
     float: left;
     margin-left: 60px;
@@ -137,7 +129,6 @@ main{
     float: right;
     margin-right: 60px;
 }
-
 .popular-brands div{
     width: 220px;
     height: 145px;
@@ -154,47 +145,38 @@ main{
     width: 220px;
     float: left;
 }
-
 .item{
     width: 700px;
     float: right;
     margin-bottom: 30px;
 }
-
 .item-info{
     width: 940 px;
     float: left
 }
-
 .sorting-line{
     width: 700px;
     margin-bottom: 30px;
 }
-
 .sorting-line a{
     width: 100px;
     float: right;
 }
-
 .sorting-line p{
     width: 100px;
     float: left;
 }
-
 .popular-brands{
     width: 940px;
     float: left;
 }
-
 .service article{
     width: 400px;
 }
-
 .service-menu li{
     width: 240px;
     height: 61px;
 }
-
 .service-menu{
     width: 240px;
     float: left;
@@ -204,7 +186,6 @@ main{
     width: 275px;
     float: left;
 }
-
 .info-about article{
     width: 520px;
     float: left;
@@ -214,17 +195,15 @@ main{
     float: left;
     width: 300px;
 }
-.info-contact article p{
+.info-contact  p{
     width: 220px;
 }
-
 .slider{
     width: 620px;
     height: 266px;
     float: left;
-    background-color: aquamarine
+    background-color: aquamarine;
 }
-
 .item-right div{
     width: 300px;
     height: 123px;
@@ -233,7 +212,6 @@ main{
     background-color: antiquewhite;
     margin-left: 20px;
 }
-
 .item-row div{
     width: 300px;
     height: 123px;
@@ -242,18 +220,16 @@ main{
     margin-bottom: 20px;
     background-color: aliceblue;
 }
-
 .top-footer-address{
     width: 322px;
     float: left;
     margin-left: 130px;
 }
-
 .top-footer-address p{
     width: 270px;
     margin-top: 40px;
 }
-.top-footer ul li{
+.top-footer li{
     float: right;
     margin-left: 30px;
     margin-bottom: 40px;
@@ -262,20 +238,17 @@ main{
     margin-left: 650px;
     margin-top: 40px;
 }
-
 .bottom-footer-copyright{
     float: left;
     margin-left: 130px;
     margin-right: 150px;
     width: 228px;
 }
-
 .bottom-footer-social{
     float: left;
     background-color: blanchedalmond;
     margin-top: 30px;
 }
-
 .bottom-footer-contact p{
     width: 135px;
     float: right;
