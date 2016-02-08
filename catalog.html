@@ -7,12 +7,12 @@
     </head>
     <body>
         <header class="main-header clearfix">
-            <div class="top-menu">
+            <div class="top-menu clearfix">
                 <a class="top-menu-logo" href="#">Техномарт</a>
                 <input class="top-menu-search" type="search" value="Поиск:">
-                <a class="bookmark" href="#">Закладки:0</a>
-                <a class="cart" href="#">Корзина:0</a>
                 <a class="order" href="#">Оформить заказ</a>
+                <a class="cart" href="#">Корзина:0</a>
+                <a class="bookmark" href="#">Закладки:0</a>
             </div>
             <div class="top-menu-info clearfix">
                 <p class="top-menu-info-title">
@@ -24,8 +24,8 @@
                     <p class="contact-phone">+7(812)555-05-55</p>
                     <p class="contact-address">г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
                 </div>
-                <div class="user-block">
-                    <div class="user-card">
+                <div class="user-block clearfix">
+                    <div class="user-card clearfix">
                         <p>Равшан Джамшутович</p>
                         <a class="logout" href="#"></a>
                         <ul>
@@ -65,8 +65,8 @@
                 </ul>
             </div>
         </header>
-        <main>
-             <ul class="breadcrumbs">
+        <main class="clearfix">
+             <ul class="breadcrumbs clearfix">
                     <li class="breadcrumbs-home"></li>
                     <li>Каталог</li>
                     <li>Инструмент</li>
@@ -125,17 +125,17 @@
                             Сетевые
                         </label>
                     </fieldset>
-                <a class="filter-btn" type="submit">показать</a>
+                <a class="filter-btn" href="#">показать</a>
             </form>
             </div>
-            <div class="item">
-                <div class="sorting-line">
+            <div class="item clearfix">
+                <div class="sorting-line clearfix">
                     <p>Сортировка:</p>
-                    <a class="item-sorting-btn" href="#">По цене</a>
-                    <a class="item-sorting-btn" href="#">По типу</a>
-                    <a class="item-sorting-btn" href="#">По функционалу</a>
-                    <a class="item-sorting-btn-increase" href="#"></a>
                     <a class="item-sorting-btn-reduction" href="#"></a>
+                    <a class="item-sorting-btn-increase" href="#"></a>
+                    <a class="item-sorting-btn" href="#">По функционалу</a>
+                    <a class="item-sorting-btn" href="#">По типу</a>
+                    <a class="item-sorting-btn" href="#">По цене</a>
                 </div>
                 <div class="item-row1 clearfix">
                     <div class="product-item product-item01">
@@ -230,21 +230,21 @@
                     <a href="#3">3</a>
                     <a class="paginator-next" href="#4">Следующая</a>
                 </div>
-                <article><h2>Пара слов о перфораторах</h2>
-                    Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и
-                    камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
-                    шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены
-                    отбойный молоток и ударная дрель.
-                </article>
             </div>
+            <article class="item-info"><h2>Пара слов о перфораторах</h2>
+                Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и
+                камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
+                шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены
+                отбойный молоток и ударная дрель.
+            </article>
         </main>
-        <footer>
+        <footer class="main-footer">
             <div class="top-footer">
                 <div class="top-footer-address">
-                    <a class="top-footer-logo" href="#"></a>
-                    <p>г.Москва,ул.Строителей,д.15 +7 (495) 555-05-55 </p>
+                    <a class="top-footer-logo" href="#">Техномарт</a>
+                    <p>г.Санкт-Петербург,ул.Б. Конюшенная, д.19/8 +7 (812) 555-05-55 </p>
                 </div>
-                <div class="top-footer-menu">
+                <div class="top-footer-menu clearfix">
                     <ul>
                         <li>
                             <a href="#">Контакты</a>
@@ -278,20 +278,21 @@
                     </ul>
                 </div>
             </div>
-            <div class="bottom-footer">
+            <div class="bottom-footer clearfix">
                 <div class="bottom-footer-copyright">
-                    <p>©2010-2016 Компания«Техномарт» Все права защищены </p>
+                    <p>©2010-2016 Компания «Техномарт» Все права защищены </p>
                 </div>
                 <div class="bottom-footer-social">
-                    <a class="bottom-footer-social-vk" href="#"></a>
-                    <a class="bottom-footer-social-fb" href="#"></a>
-                    <a class="bottom-footer-social-tw" href="#"></a>
+                    <a class="bottom-footer-social-vk" href="#">vk</a>
+                    <a class="bottom-footer-social-fb" href="#">fb</a>
+                    <a class="bottom-footer-social-tw" href="#">tw</a>
                 </div>
-                <div class="bottom-footer-contact">
-                    <p>Обратная связь:
-                        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+                <div class="bottom-footer-contact clearfix">
                     <p>Разработано - 
                         <a href="http://htmlacademy.ru">htmlacademy.ru</a>
+                    </p>
+                    <p>Обратная связь:
+                        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
                     </p>
                 </div>
             </div>
