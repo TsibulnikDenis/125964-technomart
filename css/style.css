@@ -5,9 +5,19 @@ body{
     font-weight: 400;
     font-family: PTSans;
     width: 1200px;
+    vertical-align: middle;
+    text-align: center
+}
+.main-header{
+    background-color: #F1F5F7;
+    width: 1200px;
+    height: 320px;
+    margin-bottom: 60px;
+    
 }
 main{
     margin-left: 130px;
+    width: 940px;
 }
 
 .clearfix::after {
@@ -15,16 +25,37 @@ main{
   display: table;
   clear: both;
 }
+.top-menu{
+    width: 1200px;
+    height: 42px;
+    background-color: #293449;
+}
 .top-menu-logo{
     float: left;
     margin-left: 130px;
     width: 220px;
-    height: 47px;
-    margin-right: 20px;    
+    height: 40;
+    border-bottom: 5px solid darkred;
+    margin-right: 10px; 
+    text-align: center;
+    color: white;
+    background-color: #EE3643;
+    font-family: Cuprum;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    line-height: 42px;
+    
 }
 .top-menu-search{
-    width: 60px;
+    width: 95px;
     float: left;
+    height: 42px;
+    color: #ffffff;
+    font: 400 17px / 18px Cuprum;
+    background-color: #293449;
+    text-align: right;
+    padding-right: 10px;
 }
 .order{
     float: right;
@@ -33,27 +64,71 @@ main{
     height: 42px;
     vertical-align: middle;
     text-align: center;
+    background-color: #63A63E;
+    font-family: Cuprum;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 42px;
+    color: #ffffff;
 }
 .cart{
     float: right;
-    width: 150px;
+    width: 130px;
     height: 42px;
+    margin-left: 15px;
+    padding-right: 15px;
     vertical-align: middle;
-    text-align: center;
+    text-align: right;
+    font-family: Cuprum;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 42px;
+    color: #ffffff;
 }
 .bookmark{
     float: right;
+    width: 132px;
     height: 42px;
+    background-color: #EE3643;
+    font-family: Cuprum;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 42px;
+    color: #ffffff;
+}
+.top-menu-info{
+    width: 940px;
 }
 .top-menu-info-title{
-    width: 168px;
-    margin-left: 55px;
     float: left;
+    width: 200px;
+    min-height: 60px;
+    margin-left: 55px;
+    color: #ee3643;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Cuprum;
+    line-height: 23px;
+    text-align: left;
+    line-height:1.438;
+        
 }
 .top-menu-info-contact{
     width: 270;
     float: left;
     margin-left: 60px;
+}
+.contact-phone{
+    font-size: 21px;
+    font-family: Cuprum;
+    color: #e9292a;
+    width: 266px;
+    height: 43px;
+    border: 3px solid white;
+    vertical-align: middle;
+    text-align: center;
+    padding: 00px;
+    
 }
 .user-block{
     width: 280;
@@ -86,14 +161,15 @@ main{
     margin: auto;
     width: 940px;
     margin-left: 130px;
-    margin-top: 40px;
+    margin-top: 25px;
+    min-height: 100px;
 }
 .main-menu{
-    width: 940;
+    width: 940px;
+    min-height: 60px;
     float: left;
     margin-bottom: 20px;
     margin-left: 130px;
-    margin-right: 130px;
 }
 .main-menu li{
     text-decoration: none;
@@ -198,6 +274,11 @@ main{
 .info-contact  p{
     width: 220px;
 }
+.items{
+    width: 940px;
+    min-height: 410px;
+    margin-left: 1px;
+}
 .slider{
     width: 620px;
     height: 266px;
@@ -205,21 +286,73 @@ main{
     background-color: aquamarine;
 }
 .item-right div{
-    width: 300px;
-    height: 123px;
-    float: left;
-    margin-bottom: 20px;
-    background-color: antiquewhite;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 .item-row div{
-    width: 300px;
-    height: 123px;
-    float: left;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: aliceblue;
 }
+.item-row div:nth-child(3){
+    margin-right: 0px;
+}
+.item-right div, .item-row div{
+    height: 123px;
+    width: 300px;
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    font-family: Cuprum;
+    font-size: 24px;
+}
+.item-right a, .item-row a{
+    display: inline-block;
+    text-decoration: none;
+    width: 135px;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Cuprum;
+    font-weight: 400;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0% 0%;
+    border-radius: 3%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.item-right p, .item-row p{
+    display: block;
+    margin-top: 22px;
+    margin-left: 23px;
+    margin-bottom: 13px;
+    font-weight: 700;
+}
+.item-01{
+    background: url("../img/Layer-92.png");
+    background: #F6B22D url("../img/Layer%2092.svg") no-repeat scroll 0px 0px;
+}
+.item-02{
+    background-color: #4AAFDE;
+    background-image: url(../img/Layer%2096.svg);
+    background-image: ("../img/promo-item01.png") scroll 0px 0px;
+    background-repeat:  no-repeat;
+  
+}
+.item-03{
+    background: #CC79D1 url("../img/layer92.svg") no-repeat scroll 0px 0px;
+}
+.item-04{
+    background: #85D179 url("../img/promo-item01.png") no-repeat scroll 0px 0px;
+}
+.item-05{
+    background: #F6B22D url("../img/promo-item01.png") no-repeat scroll 0px 0px;
+}
+
+
+
 .top-footer-address{
     width: 322px;
     float: left;
