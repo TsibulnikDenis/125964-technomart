@@ -6,7 +6,7 @@ body{
     font-family: PTSans;
     width: 1200px;
     vertical-align: middle;
-    text-align: center
+    text-align: center;
 }
 .main-header{
     background-color: #F1F5F7;
@@ -15,7 +15,7 @@ body{
     margin-bottom: 60px;
     
 }
-main{
+section{
     margin-left: 130px;
     width: 940px;
 }
@@ -177,40 +177,106 @@ main{
     width: 100px;
     margin-right: 25px;
 }
+section .popular{
+    width: 940px;
+    height: 89px;
+    margin-bottom: 20px;
+}
 .popular-product h2{
     float: left;
     margin-left: 60px;
 }
-.popular-product a{
-    float: right;
-    margin-right: 60px;
-}
 .popular{
     width: 940px;
+    height: 85px;
+    background-color: #f7f3ec;
 }
 .product-item{
-    width: 220px;
     float: left;
-    margin-right: 10px;
+    width: 220px;
+    height: 318px;
+    margin-right: 20px;
     margin-bottom: 20px;
+    background-color: aqua;
+}
+.product .product-item:nth-child(4n),
+.item .product-item:nth-child(3n){
+    margin-right: 0px;
 }
 .product-item-row{
     width: 940px;
 }
-.popular-brands h2{
+.item-buttons a{
     float: left;
-    margin-left: 60px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Cuprum;
+    font-weight: 400;
+    border-radius: 3%;
+    display: none;
 }
-.popular-brands a{
+.product-item-btn-buy{
+    width: 135px;
+    padding-top: 5px;
+    height: 25px;
+    color: #ffffff;
+    margin-top: 45px;
+    margin-bottom: 8px;
+    background-color: #63a63e;
+    border-bottom: 3px solid #367315;
+}
+.product-item-btn-bookmarks{
+    height: 22px;
+    width: 129px;
+    padding: 5px 0px;
+    background-color: white;
+    border: 3px solid #63a63e;
+    color: black;
+}
+.popular h2{
+    float: left;
+    margin-left: 28px;
+    margin-top: 28px;
+    text-transform: uppercase;
+    font-family: Cuprum;
+    font-weight: 400;
+    font-size: 30px;
+}
+.popular a{
     float: right;
-    margin-right: 60px;
+    margin-right: 22px;
+    margin-top: 22px;
+    width: 254px;
+    height: 29px;
+    background-color: #ee3643;
+    text-transform: uppercase;
+    font-family: Cuprum;
+    font-weight: 400;
+    color: white;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.popular-brands{
+    width: 940px;
+    margin-bottom: 65px;
 }
 .popular-brands div{
     width: 220px;
-    height: 145px;
+    height: 143px;
     float: left;
-    margin-right: 15px;
+    margin-right: 17px;
     margin-bottom: 20px;
+    border: 1px solid grey;
+    padding-top: 15px;
+}
+.popular-brands div:nth-child(4n){
+    margin-right: 0px;
+}
+.popular-brands div:nth-child(n+7){
+    padding-top: 10px;
+    height: 135px;
 }
 .breadcrumbs li{
     width: 80px;
@@ -223,7 +289,8 @@ main{
 }
 .item{
     width: 700px;
-    float: right;
+    float: left;
+    margin-left: 20px;
     margin-bottom: 30px;
 }
 .item-info{
@@ -242,13 +309,28 @@ main{
     width: 100px;
     float: left;
 }
-.popular-brands{
-    width: 940px;
-    float: left;
+.popular-brands div{
+    width: 220px;
+    height: 95px;
+    padding-top: 50px;
 }
 .service article{
     width: 400px;
+    text-align: left;
+    font-family: PTSans;
+    font-size: 13px;
+    font-weight: 400;
 }
+.promo-text{
+    width: 1200px;
+    text-align: left;
+    background-color: #f2f6f8;
+    min-height: 470px;
+    padding-top: 50px;
+    padding-left: 130px;
+    margin-left: 0px;
+}
+
 .service-menu li{
     width: 240px;
     height: 61px;
@@ -256,11 +338,13 @@ main{
 .service-menu{
     width: 240px;
     float: left;
-    margin-right: 80px;
+    margin-right: 0px;
 }
 .service-info{
-    width: 275px;
+    width: 610px;
+    min-height: 300px;
     float: left;
+    padding-left: 50px;
 }
 .info-about article{
     width: 520px;
@@ -277,13 +361,20 @@ main{
 .items{
     width: 940px;
     min-height: 410px;
-    margin-left: 1px;
 }
 .slider{
     width: 620px;
     height: 266px;
     float: left;
     background-color: aquamarine;
+    margin-bottom: 55px;
+}
+.slider-title{
+    float: left;
+    position: absolute;
+}
+.slider-img{
+    float: right
 }
 .item-right div{
     margin-left: 20px;
