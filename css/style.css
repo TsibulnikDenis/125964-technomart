@@ -18,6 +18,26 @@ body{
 section{
     margin-left: 130px;
     width: 940px;
+    margin-bottom: 30px;
+    float: left;
+}
+article h2{
+    text-transform: uppercase;
+    font-family: Cuprum;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+.red-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ee3643;
+    border-radius: 3%;
+    padding: 10px 0px;
+    font-family: Cuprum;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .clearfix::after {
@@ -30,7 +50,7 @@ section{
     height: 42px;
     background-color: #293449;
 }
-.top-menu-logo{
+.logo{
     float: left;
     margin-left: 130px;
     width: 220px;
@@ -45,7 +65,11 @@ section{
     text-transform: uppercase;
     font-size: 26px;
     line-height: 42px;
-    
+}
+.footer-logo{
+    font-size: 30px;
+    height: 35px;
+    padding: 15px 0px;
 }
 .top-menu-search{
     width: 95px;
@@ -250,13 +274,6 @@ section .popular{
     margin-top: 22px;
     width: 254px;
     height: 29px;
-    background-color: #ee3643;
-    text-transform: uppercase;
-    font-family: Cuprum;
-    font-weight: 400;
-    color: white;
-    padding-top: 8px;
-    text-decoration: none;
 }
 .popular-brands{
     width: 940px;
@@ -323,14 +340,25 @@ section .popular{
 }
 .promo-text{
     width: 1200px;
+    float: left;
     text-align: left;
     background-color: #f2f6f8;
-    min-height: 470px;
     padding-top: 50px;
     padding-left: 130px;
     margin-left: 0px;
 }
-
+.promo-text-title{
+    text-transform: uppercase;
+    font-family: Cuprum;
+    font-size: 30px;
+    font-weight: 400;
+}
+.promo-text-content{
+    color: #000000;
+    font-family: PTSans;
+    font-size: 13px;
+    font-weight: 400;
+}
 .service-menu li{
     width: 240px;
     height: 61px;
@@ -346,13 +374,20 @@ section .popular{
     float: left;
     padding-left: 50px;
 }
+.info-about li{
+    list-style-image: url("../img/marker-li.png");
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Cuprum Regular;
+    
+}
 .info-about article{
     width: 520px;
     float: left;
-    margin-right: 120px;
+    text-align: left;
 }
 .info-contact article{
-    float: left;
+    float: right;
     width: 300px;
 }
 .info-contact  p{
@@ -442,25 +477,60 @@ section .popular{
     background: #F6B22D url("../img/promo-item01.png") no-repeat scroll 0px 0px;
 }
 
-
-
+footer{
+    color: #fff;
+    text-decoration: none;
+}
+.top-footer{
+    background-color: #32425c;
+    min-height: 193px;
+}
+.bottom-footer{
+    min-height: 107px;
+    background-color: #293449;
+}
+.wrapper-logo{
+    float: left;
+    width: 330px;
+}
 .top-footer-address{
-    width: 322px;
+    width: 326px;
     float: left;
     margin-left: 130px;
+    margin-top: 30px;
+    text-align: left;
+    font-family: Cuprum;
+    line-height: 24px;
+    font-size: 18px;
+    padding: 0px 5px;
 }
-.top-footer-address p{
-    width: 270px;
-    margin-top: 40px;
+.top-footer-menu{
+    float: right;
+    width: 650px;
 }
 .top-footer li{
     float: right;
-    margin-left: 30px;
-    margin-bottom: 40px;
+    margin-left: 58px;
+    font-family: Cuprum;
+}
+.top-footer li:last-child{
+    margin-left: 0px;
 }
 .top-footer ul{
-    margin-left: 650px;
-    margin-top: 40px;
+    float: right;
+    width: 650px;
+    margin-top: 33px;
+    text-decoration: underline;
+    list-style-type: none;
+    margin-right: 130px;
+}
+.top-footer-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-menu2 a{
+    color: #ffd180;
 }
 .bottom-footer-copyright{
     float: left;
