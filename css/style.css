@@ -127,14 +127,16 @@ article h2{
     padding: 15px 0px;
 }
 .top-menu-search{
-    width: 95px;
     float: left;
-    height: 42px;
+    height: 32px;
     color: #ffffff;
     font: 400 17px / 18px Cuprum;
     background-color: #293449;
     text-align: right;
-    padding-right: 10px;
+    padding-top: 10px;
+}
+.icon-search{
+    float: left;
 }
 .order{
     float: right;
@@ -155,9 +157,9 @@ article h2{
     width: 130px;
     height: 42px;
     margin-left: 15px;
-    padding-right: 15px;
+    padding: 0px 10px;
     vertical-align: middle;
-    text-align: right;
+    text-align: left;
     font-family: Cuprum;
     text-decoration: none;
     font-size: 17px;
@@ -190,30 +192,51 @@ article h2{
     line-height: 23px;
     text-align: left;
     line-height:1.438;
-        
 }
 .top-menu-info-contact{
-    width: 270;
+    width: 273px;
     float: left;
-    margin-left: 60px;
+    margin-left: 65px;
+    margin-top: 18px;
+    text-align: left
 }
 .contact-phone{
     font-size: 21px;
     font-family: Cuprum;
     color: #e9292a;
     width: 266px;
-    height: 43px;
     border: 3px solid white;
-    vertical-align: middle;
     text-align: center;
-    padding: 00px;
-    
+    padding: 6px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.icon-phone{
+    margin-right: 38px;
+    text-align: left
+}
+.contact-address{
+    font-size: 14px;
+    font-family: Cuprum;
+    font-weight: 400;
 }
 .user-block{
     width: 280;
-    float: left;
+    height: 45px;
+    float: right;
+    margin-top: 18px;
     margin-left: 0px;
 }
+.registr, .login{
+    font-size: 21px;
+    font-family: Cuprum;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #fff;
+    padding-top: 8px;
+    color: #000;
+}
+
 .user-block li{
     float: left;
     margin-left: 10px;
@@ -221,13 +244,14 @@ article h2{
 .registr{
     float: right;
     width: 150px;
-    height: 45px;
+    height: 37px;
 }
 .login{
-     float: right;
-    width: 121px;
-    height: 45px;
+    float: right;
+    width: 113px;
+    height: 37px;
     margin-right: 10px;
+    padding-right: 10px;
 }
 .user-block p{
     float: right;
@@ -244,17 +268,29 @@ article h2{
     min-height: 100px;
 }
 .main-menu{
-    width: 940px;
-    min-height: 60px;
+    width: 980px;
     float: left;
     margin-bottom: 20px;
-    margin-left: 130px;
+    margin-left: 105px;
+    padding: 0px;
+}
+.main-menu ul{
+    padding: 0px;
 }
 .main-menu li{
+    list-style-type: none;
+    background-color: #32425c;
+    display: inline-block;
+    width: 133px;
+    height: 60px;
+    margin-left: -4px;
+}
+.main-menu a{
     text-decoration: none;
-    float: left;
-    width: 100px;
-    margin-right: 25px;
+    color: #fff;
+    font-family: Cuprum;
+    font-size: 17px;
+    font-weight: 400;
 }
 section .popular{
     width: 940px;
