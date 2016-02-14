@@ -13,10 +13,14 @@
         <header class="main-header clearfix">
             <div class="top-menu clearfix">
                 <a class="logo" href="#">Техномарт</a>
-                <input class="top-menu-search" type="search" value="Поиск:">
+                <div class="top-menu-search">
+                    <label class="icon-search">
+                        <input class="top-menu-search" type="search" value="Поиск:">
+                    </label>
+                </div>
                 <a class="order" href="#">Оформить заказ</a>
-                <a class="cart" href="#">Корзина:0</a>
-                <a class="bookmark" href="#">Закладки:0</a>
+                <a class="cart" href="#"><i class="icon-cart"></i>Корзина: 0</a>
+                <a class="bookmark" href="#"><i class="icon-bookmark"></i>Закладки: 0</a>
             </div>
             <div class="top-menu-info clearfix">
                 <p class="top-menu-info-title">
@@ -25,12 +29,12 @@
                     и инструментов для ремонта
                 </p>
                 <div class="top-menu-info-contact">
-                    <p class="contact-phone">+7(812)555-05-55</p>
-                    <p class="contact-address">г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
+                    <div class="contact-phone"><i class="icon-phone"></i>+7(812)555-05-55</div>
+                    <div class="contact-address">г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</div>
                 </div>
                 <div class="user-block clearfix">
                     <div class="user-card clearfix">
-                        <p>Равшан Джамшутович</p>
+                        <div><i class="icon-user"></i>Равшан Джамшутович<i class="icon-logout"></i></div>
                         <a class="logout" href="#"></a>
                         <ul>
                             <li>
@@ -71,7 +75,7 @@
         </header>
         <main class="clearfix">
              <ul class="breadcrumbs clearfix">
-                    <li class="breadcrumbs-home"></li>
+                    <li class="icon-home"></li>
                     <li>Каталог</li>
                     <li>Инструмент</li>
                     <li>Перфораторы</li>
@@ -134,9 +138,9 @@
             </div>
             <section class="item clearfix">
                 <div class="sorting-line clearfix">
-                    <p>Сортировка:</p>
-                    <a class="item-sorting-btn-reduction" href="#"></a>
-                    <a class="item-sorting-btn-increase" href="#"></a>
+                    <div>Сортировка:</div>
+                    <a class="icon-down-dir" href="#"></a>
+                    <a class="icon-up-dir" href="#"></a>
                     <a class="item-sorting-btn" href="#">По функционалу</a>
                     <a class="item-sorting-btn" href="#">По типу</a>
                     <a class="item-sorting-btn" href="#">По цене</a>
@@ -144,7 +148,7 @@
                 <div class="item-row1 clearfix">
                     <div class="product-item">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item2.png" width="180" height="160" alt="item-preview">
@@ -155,7 +159,7 @@
                     </div>
                     <div class="product-item">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item3.png" width="180" height="160" alt="item-preview">
@@ -166,7 +170,7 @@
                     </div>
                     <div class="product-item  new">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item2.png" width="180" height="160" alt="item-preview">
@@ -179,7 +183,7 @@
                 <div class="item-row2 clearfix">
                     <div class="product-item">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item2.png" width="180" height="160" alt="item-preview">
@@ -190,7 +194,7 @@
                     </div>
                     <div class="product-item new">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item3.png" width="180" height="160" alt="item-preview">
@@ -201,7 +205,7 @@
                     </div>
                     <div class="product-item">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item2.png" width="180" height="160" alt="item-preview">
@@ -214,7 +218,7 @@
                 <div class="item-row3 clearfix">
                     <div class="product-item new">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item2.png" width="180" height="160" alt="item-preview">
@@ -225,7 +229,7 @@
                     </div>
                     <div class="product-item">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item3.png" width="180" height="160" alt="item-preview">
@@ -236,7 +240,7 @@
                     </div>
                     <div class="product-item">
                         <div class="item-buttons">
-                            <a class="product-item-btn-buy" href="#">Купить</a>
+                            <a class="product-item-btn-buy icon-cart" href="#">Купить</a>
                             <a class="product-item-btn-bookmarks" href="#">В закладки</a>
                         </div>
                         <img class="product-item-preview" src="img/item2.png" width="180" height="160" alt="item-preview">
@@ -311,9 +315,9 @@
                     <p>©2010-2016 Компания «Техномарт» Все права защищены </p>
                 </div>
                 <div class="bottom-footer-social">
-                    <a class="bottom-footer-social-vk" href="#"></a>
-                    <a class="bottom-footer-social-fb" href="#"></a>
-                    <a class="bottom-footer-social-tw" href="#"></a>
+                    <a class="bottom-footer-social-vk icon-vk" href="#"></a>
+                    <a class="bottom-footer-social-fb icon-facebook" href="#"></a>
+                    <a class="bottom-footer-social-tw icon-instagramm" href="#"></a>
                 </div>
                 <div class="bottom-footer-contact">
                     <p>Обратная связь:
