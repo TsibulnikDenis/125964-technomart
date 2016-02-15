@@ -65,7 +65,7 @@
         <main class="clearfix">
             <section class="items clearfix">
                 <div class="item-row clearfix">
-                    <div class="item-01">
+                    <div class="item-01 new">
                         <p>Материалы</p>
                         <a href="#">На любой вкус</a>
                     </div>
@@ -79,6 +79,7 @@
                     </div>
                 </div>
                 <div class="slider clearfix">
+<!--
                     <article class="slider-title">
                         <h2>Перфораторы</h2>
                         <p>Настоящие мужские игрушки</p>
@@ -90,6 +91,33 @@
                         <a class="slider-left-btn" href="#"></a>
                         <a class="slider-btn red-btn" href="#">Открыть каталог</a>
                         <a class="slider-right-btn" href="#"></a>
+                    </div>
+-->
+                    <input type="radio" id="btn-1" name="toggle" checked>
+                    <input type="radio" id="btn-2" name="toggle">
+                        <div class="slider-controls">
+                            <label for="btn-1"></label>
+                            <label for="btn-2"></label>
+                        </div>
+                        <div class="arrows">
+                            <label for="btn-1"></label>
+                            <label for="btn-2"></label>
+                        </div>
+                    <div class="slides">
+                        <div class="slide">
+                            <div class="slide-text">
+                                <div class="slide-title">Перфораторы</div>
+                                <p>Настоящие мужские игрушки</p>
+                            </div>
+                            <a class="btn-slide red-btn" href="#">Открыть каталог</a>
+                        </div>
+                    <div class="slide">
+                        <div class="slide-text">
+                            <div class="slide-title">Дрели</div>
+                            <p>Соседям на радость!</p>
+                        </div>
+                        <a class="btn-slide red-btn" href="#">Открыть каталог</a>
+                    </div>
                     </div>
                 </div>
                 <div class="item-right">
@@ -267,5 +295,21 @@
                 </div>
             </div>
         </footer>
+        <form class="popup clearfix">
+            <fieldset>
+                <label  class="popup-name">Ваше имя:
+                    <input type="text" value="Представьтесь, пожалуйста">
+                </label>
+                <label  class="popup-email">Ваш e-mail:
+                    <input type="email" value="Для отправки ответа">
+                </label>
+                <label  class="popup-text">Текст письма:
+                    <textarea rows="5" cols="59">В свободной форме</textarea>
+                </label>
+            </fieldset>
+            <fieldset  class="popup-btn">
+                <button class="red-btn" type="submit">Отправить</button>
+            </fieldset>
+        </form>
     </body>
 </html>

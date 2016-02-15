@@ -63,6 +63,15 @@ body{
 .icon-search::before { content: "🔍"; } /* "\1f50d" */
 .icon-bookmark::before { content: "🔖"; } /* "\1f516" */
 
+.new:before {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 60px;
+  height: 60px;
+  content: '';
+  background: url('../img/new.png') no-repeat 0 0;
+}
 .main-header{
     background-color: #F1F5F7;
     width: 1200px;
@@ -495,15 +504,19 @@ section .popular{
     width: 620px;
     height: 266px;
     float: left;
-    background-color: aquamarine;
+    background-color: mediumaquamarine;
     margin-bottom: 55px;
 }
-.slider-title{
+.slide-title{
     float: left;
     position: absolute;
-}
-.slider-img{
-    float: right
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Cuprum;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 25px;
+    
 }
 .item-right div{
     margin-left: 20px;
@@ -565,7 +578,6 @@ section .popular{
 .item-05{
     background: #F6B22D url("../img/layer101.png") no-repeat scroll 192px 30px;
 }
-
 footer{
     color: #fff;
     text-decoration: none;
@@ -636,4 +648,65 @@ footer{
     width: 135px;
     float: right;
     margin-left: 30px;
+}
+.popup{
+    box-shadow: 0px 20px 40px 0.00px rgba(0, 1, 1, 0.75);
+    width: 620px;
+    margin-left: 290px;
+    border-top: 7px solid #ee3643;
+    text-align: left;
+    font-family: Cuprum;
+    font-weight: 400;
+    font-size: 18px;
+}
+.popup label{
+    width: 220px;
+}
+.popup-name, .popup-text,.popup-btn button{
+    float: left;
+    margin-left: 66px;
+}
+.popup-email{
+    margin-top: 38px;
+    float: left;
+    margin-left: 20px;
+}
+.popup input, .popup-text textarea{
+    width: 203px;
+    height: 33px;
+    border: 2px solid #d7dcde;
+    color: #d7dcde;
+    font-family: PTSans;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 8px;
+    padding-left: 13px;
+}
+.popup-text textarea{
+    width: 440px;
+    height: 105px;
+}
+.popup-name{
+    margin-top: 38px;
+}
+.popup-text{
+    margin-top: 14px;
+}
+.popup-btn button{
+    width: 460px;
+    height: 38px;
+    padding: 0px;
+    margin-top: 50px;
+    border: none;
+}
+.popup-btn{
+    height: 112px;
+    background-color: #f1f1f1;
+    border: none;
+}
+.popup fieldset{
+    margin: 0px;
+    border: none;
+}
+.icon-close{
 }
