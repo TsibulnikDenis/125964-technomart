@@ -268,10 +268,10 @@ article h2{
     min-height: 100px;
 }
 .main-menu{
-    width: 980px;
+    width: 940px;
     float: left;
     margin-bottom: 20px;
-    margin-left: 105px;
+    margin-left: 134px;
     padding: 0px;
 }
 .main-menu ul{
@@ -281,9 +281,12 @@ article h2{
     list-style-type: none;
     background-color: #32425c;
     display: inline-block;
-    width: 133px;
-    height: 60px;
-    margin-left: -4px;
+    width: 139px;
+    height: 35px;
+    margin-left: -8px;
+    padding-top: 20px;
+    margin-top: 13px;
+    border-bottom: 5px solid #293449;
 }
 .main-menu a{
     text-decoration: none;
@@ -430,7 +433,7 @@ section .popular{
     font-weight: 400;
 }
 .promo-text{
-    width: 1200px;
+    width: 1070px;
     float: left;
     text-align: left;
     background-color: #f2f6f8;
@@ -548,24 +551,19 @@ section .popular{
     font-weight: 700;
 }
 .item-01{
-    background: url("../img/Layer-92.png");
-    background: #F6B22D url("../img/Layer%2092.svg") no-repeat scroll 0px 0px;
+    background: #F6B22D url("../img/Layer92.png") no-repeat scroll 212px 30px;
 }
 .item-02{
-    background-color: #4AAFDE;
-    background-image: url(../img/Layer%2096.svg);
-    background-image: ("../img/promo-item01.png") scroll 0px 0px;
-    background-repeat:  no-repeat;
-  
+    background: #4AAFDE url("../img/layer96.png")  no-repeat scroll 198px 30px;
 }
 .item-03{
-    background: #CC79D1 url("../img/layer92.svg") no-repeat scroll 0px 0px;
+    background: #CC79D1 url("../img/layer95.png") no-repeat scroll 193px 30px;
 }
 .item-04{
-    background: #85D179 url("../img/promo-item01.png") no-repeat scroll 0px 0px;
+    background: #85D179 url("../img/layer100.png") no-repeat scroll 195px 26px;
 }
 .item-05{
-    background: #F6B22D url("../img/promo-item01.png") no-repeat scroll 0px 0px;
+    background: #F6B22D url("../img/layer101.png") no-repeat scroll 192px 30px;
 }
 
 footer{
