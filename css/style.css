@@ -129,15 +129,21 @@ article h2{
 }
 .top-menu-search{
     float: left;
-    height: 32px;
+    height: 42px;
     color: #ffffff;
     font: 400 17px / 18px Cuprum;
     background-color: #293449;
-    text-align: right;
-    padding-top: 10px;
+    text-align: left;
+    padding-top: 0px;
+}
+.top-menu-search input{
+    border: 0px;
+    padding-left: 12px;
 }
 .icon-search{
     float: left;
+    margin-top: 12px;
+    margin-left: 2px;
 }
 .order{
     float: right;
@@ -177,6 +183,10 @@ article h2{
     font-size: 17px;
     line-height: 42px;
     color: #ffffff;
+    margin-right: 2px;
+}
+.icon-bookmark{
+    margin-right: 8px;
 }
 .top-menu-info{
     width: 940px;
@@ -407,7 +417,7 @@ section .popular{
 .popular h2{
     float: left;
     margin-left: 28px;
-    margin-top: 28px;
+    margin-top: 34px;
     text-transform: uppercase;
     font-family: Cuprum;
     font-weight: 400;
@@ -415,8 +425,8 @@ section .popular{
 }
 .popular a{
     float: right;
-    margin-right: 22px;
-    margin-top: 22px;
+    margin-right: 24px;
+    margin-top: 25px;
     width: 254px;
     height: 19px;
 }
@@ -509,7 +519,7 @@ section .popular{
     width: 620px;
     height: 266px;
     float: left;
-    margin-bottom: 55px;
+    margin-bottom: 51px;
 }
 
 .slide{
@@ -595,18 +605,64 @@ section .popular{
 }
 .service-menu li{
     width: 240px;
-    height: 61px;
+    height: 30px;
+    list-style: none;
+    font-family: Cuprum;
+    font-size: 21px;
+    color: #ffffff;
+    background-color: #32425c;
+    padding: 20px;
+    margin-left: -40px;
 }
 .service-menu{
     width: 240px;
     float: left;
     margin-right: 0px;
 }
+.service-menu input[type="radio"]{
+    display: none;
+}
 .service-info{
-    width: 610px;
-    min-height: 300px;
+    width: 740px;
+    height: 300px;
     float: left;
     padding-left: 50px;
+    height: 270px;
+}
+.service-text h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Cuprum;
+    font-size: 36px;
+    color: #32425c;
+}
+.service-text:nth-child(1){
+    background: url('../img/delivery.png') no-repeat  80% 5%;
+}
+.service-text:nth-child(2){
+    background: url('../img/guarantee.png') no-repeat 80% 5%;
+}
+.service-text:nth-child(3){
+    background: url('../img/credit.png') no-repeat 80% 5%;
+}
+
+.service-text{
+    display: none;
+}
+.delivery:checked ~ .service-info .service-text:nth-child(1) {
+  display: block;
+}
+.service-menu  label:nth-child(1){}
+.guarantee:checked ~ .service-info .service-text:nth-child(2) {
+  display: block;
+}
+.credit:checked ~ .service-info .service-text:nth-child(3) {
+  display: block;
+}
+.service-info p{
+    width: 275px;
+    overflow: hidden;
+    min-height: 240px;
 }
 .info-about li{
     list-style-image: url("../img/marker-li.png");
