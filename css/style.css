@@ -504,6 +504,95 @@ section .popular{
     font-size: 13px;
     font-weight: 400;
 }
+.slider{
+    position: relative;
+    width: 620px;
+    height: 266px;
+    float: left;
+    margin-bottom: 55px;
+}
+
+.slide{
+    min-height: 266px;
+    width: 620px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.slide:nth-child(1) {
+  background-image: url("../img/slider.jpg");
+}
+
+.slide:nth-child(2) {
+  background-image: url("../img/slider1.jpg");
+}
+
+.slider input[type="radio"] {
+  display: none;
+}
+.slider-controls label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  vertical-align: top;
+  background: #ffffff;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-controls {
+  position: absolute;
+  bottom: 25px;
+  left: 290px;
+}
+
+
+.slide-title{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Cuprum;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 30px 0px 0px 22px;
+    padding-top: 28px;
+    text-align: left;
+}
+.slide p{
+    font-family: PTSans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 22px;
+}
+.btn-slide{
+    display: block;
+    position: relative;
+    left: 27px;
+    top: 97px;
+    width: 193px;
+    height: 18px;
+}
+.slide {
+  display: none;
+}
+#btn-1:checked ~ .slides .slide:nth-child(1) {
+  display: block;
+}
+
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+  display: block;
+}
+
+#btn-3:checked ~ .slides .slide:nth-child(3) {
+  display: block;
+}
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+  background: #ee3643;
+}
 .service-menu li{
     width: 240px;
     height: 61px;
@@ -542,24 +631,7 @@ section .popular{
     width: 940px;
     min-height: 410px;
 }
-.slider{
-    width: 620px;
-    height: 266px;
-    float: left;
-    background-color: mediumaquamarine;
-    margin-bottom: 55px;
-}
-.slide-title{
-    float: left;
-    position: absolute;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: Cuprum;
-    font-size: 36px;
-    font-weight: 700;
-    padding-left: 25px;
-    
-}
+
 .item-right div{
     margin-left: 20px;
     margin-bottom: 20px;
