@@ -63,15 +63,7 @@ body{
 .icon-search::before { content: "🔍"; } /* "\1f50d" */
 .icon-bookmark::before { content: "🔖"; } /* "\1f516" */
 
-.new:before {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  width: 60px;
-  height: 60px;
-  content: '';
-  background: url('../img/new.png') no-repeat 0 0;
-}
+
 .main-header{
     background-color: #F1F5F7;
     width: 1200px;
@@ -317,14 +309,15 @@ section .popular{
     width: 940px;
     height: 85px;
     background-color: #f7f3ec;
+    margin-top: -30px;
 }
 .product-item{
     float: left;
-    width: 220px;
+    width: 218px;
     height: 318px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: aqua;
+    border: #999999 solid 1px
 }
 .product .product-item:nth-child(4n),
 .item .product-item:nth-child(3n){
@@ -332,6 +325,15 @@ section .popular{
 }
 .product-item-row{
     width: 940px;
+}
+.new:before {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 60px;
+  height: 60px;
+  content: '';
+  background: url('../img/new.png') no-repeat 0 0;
 }
 .item-buttons a{
     float: left;
@@ -362,6 +364,46 @@ section .popular{
     border: 3px solid #63a63e;
     color: black;
 }
+.product-item-price{
+    display: block;
+    position: relative;
+    left: 45px;
+    top: 3px;
+    width: 121px;
+    height: 20px;
+    font-family: PTSans;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: url("../img/btn-copy-12.png") no-repeat;
+    padding: 10px;
+}
+.product-item-name{
+    display: block;
+    width: 170px;
+    height: 38px;
+    font-family: Cuprum;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000000;
+    padding-top: 8px;
+    letter-spacing: 1px;
+}
+.product-item-discount{
+    display: block;
+    font-family: Cuprum;
+    font-size: 18px;
+    font-weight: 700;
+    color: #999999;
+    line-height: 12px;
+    height: 20px;
+    padding-top: 18px;
+    text-transform: uppercase;
+}
 .popular h2{
     float: left;
     margin-left: 28px;
@@ -376,7 +418,7 @@ section .popular{
     margin-right: 22px;
     margin-top: 22px;
     width: 254px;
-    height: 29px;
+    height: 19px;
 }
 .popular-brands{
     width: 940px;
