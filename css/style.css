@@ -85,6 +85,8 @@ article h2{
     text-align: left;
 }
 .red-btn{
+    display: block;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
@@ -501,6 +503,7 @@ section .popular{
     padding-top: 50px;
     padding-left: 130px;
     margin-left: 0px;
+    margin-top: -35px;
 }
 .promo-text-title{
     text-transform: uppercase;
@@ -694,6 +697,16 @@ section .popular{
 .info-contact  p{
     width: 220px;
 }
+.info-about-btn{
+    width: 220px;
+    margin-top: 50px;
+}
+.info-contact-btn{
+    margin-top: 40px;
+}
+
+
+
 .items{
     width: 940px;
     min-height: 410px;
@@ -818,18 +831,56 @@ footer{
     float: left;
     margin-left: 130px;
     margin-right: 150px;
-    width: 228px;
+    width: 260px;
+    text-align: left;
+    font-size: 16px;
+    font-family: Cuprum;
 }
-.bottom-footer-social{
+.bottom-footer-social a{
     float: left;
     background-color: blanchedalmond;
     margin-top: 30px;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 42px;
+    height: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #212A3A;
+}
+.bottom-footer-social a:hover,
+.bottom-footer-social a:active{
+    background-color: #ee3643;
 }
 .bottom-footer-contact p{
     width: 135px;
     float: right;
     margin-left: 30px;
+    font-family: Cuprum;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
 }
+.bottom-footer-contact a{
+    text-decoration: none;
+    color: #ffd180;
+}
+.bottom-footer-contact{
+    margin-right: 90px;
+}
+
+
+
+
+
+
+
 .popup{
     box-shadow: 0px 20px 40px 0.00px rgba(0, 1, 1, 0.75);
     width: 620px;
