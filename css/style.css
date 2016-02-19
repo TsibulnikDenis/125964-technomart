@@ -599,32 +599,36 @@ section .popular{
   display: block;
 }
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
-#btn-2:checked ~ .slider-controls label[for="btn-2"],
-#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+#btn-2:checked ~ .slider-controls label[for="btn-2"] {
   background: #ee3643;
 }
 .service-menu li{
+    display: block;
     width: 240px;
     height: 30px;
     list-style: none;
     font-family: Cuprum;
     font-size: 21px;
     color: #ffffff;
+    font-weight: 700;
     background-color: #32425c;
     padding: 20px;
     margin-left: -40px;
+}
+.service-menu label{
+    cursor: pointer;
 }
 .service-menu{
     width: 240px;
     float: left;
     margin-right: 0px;
 }
-.service-menu input[type="radio"]{
+.slider-text input{
     display: none;
 }
 .service-info{
+    position: relative;
     width: 740px;
-    height: 300px;
     float: left;
     padding-left: 50px;
     height: 270px;
@@ -645,19 +649,26 @@ section .popular{
 .service-text:nth-child(3){
     background: url('../img/credit.png') no-repeat 80% 5%;
 }
-
 .service-text{
     display: none;
+    margin-top: -30px;
+    height: 270px;
 }
-.delivery:checked ~ .service-info .service-text:nth-child(1) {
+#btn-3:checked ~  .service-info .service-text:nth-child(1) {
   display: block;
 }
-.service-menu  label:nth-child(1){}
-.guarantee:checked ~ .service-info .service-text:nth-child(2) {
+#btn-4:checked ~  .service-info .service-text:nth-child(2) {
   display: block;
 }
-.credit:checked ~ .service-info .service-text:nth-child(3) {
+#btn-5:checked ~  .service-info .service-text:nth-child(3) {
   display: block;
+}
+#btn-3:checked ~ .service-menu li:nth-child(1),
+#btn-4:checked ~ .service-menu li:nth-child(2),
+#btn-5:checked ~ .service-menu li:nth-child(3){
+  background: #fff;
+    color: #32425c;
+    font-weight: 700;
 }
 .service-info p{
     width: 275px;
