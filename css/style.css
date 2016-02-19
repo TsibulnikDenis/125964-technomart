@@ -68,7 +68,7 @@ body{
     background-color: #F1F5F7;
     width: 1200px;
     height: 320px;
-    margin-bottom: 60px;
+    margin-bottom: 27px;
     
 }
 section{
@@ -226,7 +226,8 @@ article h2{
 }
 .icon-phone{
     margin-right: 38px;
-    text-align: left
+    text-align: left;
+     color: #c5c5c5;
 }
 .contact-address{
     font-size: 14px;
@@ -239,6 +240,39 @@ article h2{
     float: right;
     margin-top: 18px;
     margin-left: 0px;
+}
+.user-card{
+    width: 285px;
+    height: 37px;
+    font-size: 21px;
+    font-family: Cuprum;
+    text-align: left;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 8px 5px 0px 10px;
+}
+.icon-logout{
+    float: right;
+    color: #c5c5c5;
+}
+.icon-user{
+    float: left;
+    margin-right: 8px;
+    color: #c5c5c5;
+}
+.user-actions a{
+    font-size: 16px;
+    color: #32425c;
+}
+.user-actions{
+    width: 250px;
+    padding-left: 10px;
+    margin-top: 12px;
+    margin-left: -8px
+}
+.user-actions li:nth-child(1){
+    list-style: none;
+    margin-right: 15px;
 }
 .registr, .login{
     font-size: 21px;
@@ -283,9 +317,7 @@ article h2{
 .main-menu{
     width: 940px;
     float: left;
-    margin-bottom: 20px;
     margin-left: 134px;
-    padding: 0px;
 }
 .main-menu ul{
     padding: 0px;
@@ -308,6 +340,72 @@ article h2{
     font-size: 17px;
     font-weight: 400;
 }
+.catalog{
+    width: 940px;
+    margin:  auto;
+}
+.breadcrumbs{
+    width: 420px;
+    list-style-image: url('../img/icon-right.png');
+    font-weight: 400;
+    font-family: Cuprum;
+    text-transform: uppercase;
+    text-align: left
+    
+}
+.breadcrumbs li{
+    float: left;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+.breadcrumbs li:nth-child(1){
+    list-style: none;
+    
+}
+.icon-home{
+    color: #c1c6ce;
+    font-size: 16px;
+}
+h1{
+    width: 860px;
+    text-align: left;
+    padding: 40px;
+    text-transform: uppercase;
+    color: #32425c;
+    font-family: Cuprum;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #f2f6f8;
+    
+}
+.sorting-line{
+    width: 670px;
+    margin-bottom: 30px;
+    background-color: #f7f3ec;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: PTSans;
+    font-size: 12px;
+    padding: 15px;
+    
+}
+.sorting-line a{
+    float: right;
+}
+.item-sorting-btn{
+    width: 137px;
+    text-decoration: none;
+    text-align: left;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.3);
+    
+    
+}
+.sorting-line div{
+    width: 100px;
+    float: left;
+}
+
 section .popular{
     width: 940px;
     height: 89px;
@@ -452,11 +550,7 @@ section .popular{
     padding-top: 10px;
     height: 135px;
 }
-.breadcrumbs li{
-    width: 80px;
-    float: left;
-    margin-right: 10px;
-}
+
 .filter{
     width: 220px;
     float: left;
@@ -471,18 +565,7 @@ section .popular{
     width: 940 px;
     float: left
 }
-.sorting-line{
-    width: 700px;
-    margin-bottom: 30px;
-}
-.sorting-line a{
-    width: 100px;
-    float: right;
-}
-.sorting-line p{
-    width: 100px;
-    float: left;
-}
+
 .popular-brands div{
     width: 220px;
     height: 95px;
@@ -710,6 +793,7 @@ section .popular{
 .items{
     width: 940px;
     min-height: 410px;
+    margin-top: 34px;
 }
 
 .item-right div{
@@ -874,13 +958,6 @@ footer{
 .bottom-footer-contact{
     margin-right: 90px;
 }
-
-
-
-
-
-
-
 .popup{
     box-shadow: 0px 20px 40px 0.00px rgba(0, 1, 1, 0.75);
     width: 620px;
@@ -890,6 +967,7 @@ footer{
     font-family: Cuprum;
     font-weight: 400;
     font-size: 18px;
+    display: none;
 }
 .popup label{
     width: 220px;
