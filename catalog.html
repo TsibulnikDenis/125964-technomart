@@ -81,27 +81,27 @@
                     <li>Перфораторы</li>
             </ul>
             <h1>Перфораторы</h1>
-            <div class="filter">
+            <div class="wrapper-filter clearfix">
                 <h3>
                     Фильтр:
                 </h3>
-                <h3>Цена:</h3>
-                <div class="range-filter">
+                <form class="filter">
+                <div class="filter-range">
+                    <div class="filter-range-title">Цена:</div>
                     <div class="range-controls">
                         <div class="scale">
-                            <div style="margin-left:50px;width:100px;" class="bar"></div>
+                            <div class="bar"></div>
                         </div>
                         <div class="toggle min-toggle"></div>
                         <div class="toggle max-toggle"></div>
                     </div>
                     <div class="price-controls">
-                        <input class="min-price" type="text" value="0">-
+                        <input class="min-price" type="text" value="0">
                         <input class="max-price" type="text" value="30000">
                     </div>
                 </div>
-                <form class="filter">
-                    <fieldset class="filter-producers">              
-                        <legend>Производители:</legend>
+                    <legend  align="center">Производители:</legend>
+                    <fieldset class="filter-group filter-producers">              
                         <label>  
                             <input type="checkbox" name="producers[]" value="bosch" checked>
                             Bosch
@@ -123,8 +123,8 @@
                             Hitachi
                         </label>
                     </fieldset>
-                    <fieldset class="filter-product">
-                        <legend>Питание:</legend>
+                    <legend>Питание:</legend>
+                    <fieldset class="filter-group filter-product">
                         <label>
                             <input type="radio" name="product" value="аккумуляторные" checked>
                             Аккумуляторные
@@ -252,23 +252,34 @@
                     </div>
                 </div>
                 <div class="paginator">
-                    <a href="#1">1</a>
-                    <a href="#2">2</a>
-                    <a href="#3">3</a>
-                    <a class="paginator-next" href="#4">Следующая</a>
+                    <ul>
+                        <li>
+                            <span class="page-button  page-button--active">1</span>
+                        </li>
+                        <li>
+                            <a class="page-button" href="#">2</a>
+                        </li>
+                        <li>
+                            <a class="page-button" href="#">3</a>
+                        </li>
+                        <li>
+                            <a class="page-button" href="#">Следующая</a>
+                        </li>
+                    </ul>
                 </div>
             </section>
-            <section class="promo-text clearfix">
+        </main>
+            <div class="promo-text catalog-promo clearfix">
                 <article>
                     <h2 class="promo-text-title">Пара слов о перфораторах</h2>
                     <p class="promo-text-content">Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и
-                    камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
+                    камне.<br>
+                        Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
                     шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены
                     отбойный молоток и ударная дрель.
                     </p>
                 </article>
-            </section>
-        </main>
+            </div>
         <footer class="main-footer clearfix">
             <div class="top-footer clearfix">
                 <div class="wrapper-logo clearfix">

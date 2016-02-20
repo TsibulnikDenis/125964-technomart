@@ -350,8 +350,9 @@ article h2{
     font-weight: 400;
     font-family: Cuprum;
     text-transform: uppercase;
-    text-align: left
-    
+    text-align: left;
+    margin-top: -10px;
+    margin-left: -45px;
 }
 .breadcrumbs li{
     float: left;
@@ -367,9 +368,10 @@ article h2{
     font-size: 16px;
 }
 h1{
-    width: 860px;
+    width: 880px;
+    min-height: 89;
     text-align: left;
-    padding: 40px;
+    padding: 30px;
     text-transform: uppercase;
     color: #32425c;
     font-family: Cuprum;
@@ -380,7 +382,8 @@ h1{
 }
 .sorting-line{
     width: 670px;
-    margin-bottom: 30px;
+    height: 13px;
+    margin-bottom: 18px;
     background-color: #f7f3ec;
     text-transform: uppercase;
     font-weight: 400;
@@ -393,19 +396,166 @@ h1{
     float: right;
 }
 .item-sorting-btn{
-    width: 137px;
     text-decoration: none;
     text-align: left;
     padding: 0px;
     color: rgba(0, 0, 0, 0.3);
-    
-    
+    border-bottom:  1px dotted #ee3643;
+    margin-left: 70px;
+}
+.sorting-line a:nth-child(6){
+    color: #ee3643;
+    border-bottom: none;
 }
 .sorting-line div{
     width: 100px;
     float: left;
+    font-family: Cuprum;
+    font-weight: bold;
 }
-
+.icon-down-dir,
+.icon-up-dir{
+    display: block;
+    margin-left: 10px;
+    font-family: symbols;
+    font-size: 23px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+}
+.filter-range {
+  width: 220px;
+  text-transform: uppercase;
+}
+.filter-range-title {
+  margin-bottom: 9px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 21px;
+}
+.price-controls {
+  height: 38px;
+  margin-bottom: 40px;
+    position: relative;
+}
+.price-controls::after {
+    content: '—';
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.price-controls .min-price,
+.price-controls .max-price {
+    background-color: #f7f3ec;
+    width: 95px;
+    height: 38px;
+    text-align: center;
+    font-weight: 600;
+}
+.max-price{
+    margin-left: 26px;
+}
+.price-controls input {
+  width: 50px;
+    height: 38px;
+  background: none;
+  border: none;
+  outline: none;
+}
+.price-controls div{
+    width: 1000px;
+    top: 30px
+}
+.range-controls {
+position: relative;
+    height: 80px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    padding: 0 30px;
+    background: #f7f3ec;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.wrapper-filter{
+    width: 220px;
+    float: left;
+    padding: 0px;
+}
+.scale{
+    position: relative;
+    top: 39px;
+}
+.range-controls .scale {
+  height: 2px;
+    background: #d7dcde;
+}
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+  background: #00ca74;
+}
+.toggle {
+    width: 4px;
+    height: 4px;
+    border: 8px solid white;
+    background: #ababab;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    top: 31px;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+.min-toggle {
+    left: 20px;
+}
+.max-toggle {
+  left: 160px;;
+}
+.wrapper-filter h3{
+    font-family: Cuprum, PTSans;
+    text-transform: uppercase;
+    display: block;
+    width: 186px;
+    height: 21px;
+    text-align: left;
+    padding: 10px 17px;
+    margin-top: 0px;
+    background-color: #f7f3ec;
+}
+.filter legend{
+    display: block;
+    text-align: left;
+    margin: 0px;
+}
+.filter-group{
+    border:none;
+}
+.filter-group label{
+    float: left;
+    width: 201px;
+    margin-left: -12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+form{
+    text-transform: uppercase;
+    font-family: Cuprum;
+    font-size: 15px;
+    text-align: left
+    }
+.filter{
+    width: 220px;
+    float: left;
+}
+.filter h3{
+    text-align: left;
+    text-transform: uppercase;
+}
+.filter h3{
+    display: block;
+    width: 220px;
+    height: 38px;
+}
 section .popular{
     width: 940px;
     height: 89px;
@@ -424,7 +574,7 @@ section .popular{
 .product-item{
     float: left;
     width: 218px;
-    height: 318px;
+    height: 316px;
     margin-right: 20px;
     margin-bottom: 20px;
     border: #999999 solid 1px
@@ -436,17 +586,16 @@ section .popular{
 .product-item-row{
     width: 940px;
 }
-.new:before {
+.item-buttons{
   position: absolute;
-  top: -1px;
-  right: -1px;
-  width: 60px;
-  height: 60px;
-  content: '';
-  background: url('../img/new.png') no-repeat 0 0;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: 88px;
+  padding: 40px 0;
+  background-color: #fff; 
 }
 .item-buttons a{
-    float: left;
     margin-left: 40px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -454,8 +603,9 @@ section .popular{
     font-family: Cuprum;
     font-weight: 400;
     border-radius: 3%;
-    display: none;
+    display: block;
 }
+
 .product-item-btn-buy{
     width: 135px;
     padding-top: 5px;
@@ -473,6 +623,16 @@ section .popular{
     background-color: white;
     border: 3px solid #63a63e;
     color: black;
+}
+.product-item .item-buttons{
+    display: none;
+}.product-item:hover .item-buttons{
+    display: block;
+}
+
+
+.product-item{
+    position: relative;
 }
 .product-item-price{
     display: block;
@@ -514,6 +674,21 @@ section .popular{
     padding-top: 18px;
     text-transform: uppercase;
 }
+.product-item:hover {
+    border: 1px solid #ffffff;
+    box-shadow: 0 5px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.new::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+    content: '';
+    background: url("../img/new.png") no-repeat 0 0;
+}
 .popular h2{
     float: left;
     margin-left: 28px;
@@ -551,10 +726,7 @@ section .popular{
     height: 135px;
 }
 
-.filter{
-    width: 220px;
-    float: left;
-}
+
 .item{
     width: 700px;
     float: left;
@@ -579,13 +751,12 @@ section .popular{
     font-weight: 400;
 }
 .promo-text{
-    width: 1070px;
     float: left;
     text-align: left;
     background-color: #f2f6f8;
     padding-top: 50px;
     padding-left: 130px;
-    margin-left: 0px;
+    padding-bottom: 60px;
     margin-top: -35px;
 }
 .promo-text-title{
@@ -600,6 +771,7 @@ section .popular{
     font-size: 13px;
     font-weight: 400;
 }
+.catalog-promo{}
 .slider{
     position: relative;
     width: 620px;
@@ -757,9 +929,13 @@ section .popular{
     font-weight: 700;
 }
 .service-info p{
+    font-family: Cuprum;
     width: 275px;
     overflow: hidden;
-    min-height: 240px;
+    min-height: 100px;
+}
+.credit-btn{
+    width: 195px;
 }
 .info-about li{
     list-style-image: url("../img/marker-li.png");
@@ -842,6 +1018,7 @@ section .popular{
     font-weight: 700;
 }
 .item-01{
+    position: relative;
     background: #F6B22D url("../img/Layer92.png") no-repeat scroll 212px 30px;
 }
 .item-02{
@@ -1018,5 +1195,65 @@ footer{
     margin: 0px;
     border: none;
 }
-.icon-close{
+.paginator {
+    float: left;
+  margin-left: 0;
+  padding: 10px 0;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.paginator ul {
+  margin: 0;
+  padding: 0;
+}
+
+.paginator ul li {
+  min-width: 20px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.paginator ul li:first-child {
+  padding-left: 0;
+}
+
+.page-button {
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #e5e5e5;
+  color: #000000;
+  text-transform: uppercase;
+  border-radius: 5%;
+}
+
+.page-button:hover {
+  border: 1px solid #bdc6ca;
+}
+
+.page-button:active {
+  border: 1px solid #ee3643;
+  color: #b2b2b2;
+}
+
+.page-button--active {
+  color: #ffffff;
+  background: #ee3643;
+  border-style: inset;
+  border: none;
+}
+
+.page-button--active:hover {
+  color: #ffffff;
+  background: #ee3643;
+  border-style: inset;
+  border: none;
+}
+
+.page-button--active:active {
+  color: #ffffff;
+  background: #ee3643;
+  border-style: inset;
+  border: none;
 }
