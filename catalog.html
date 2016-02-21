@@ -3,9 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Техномарт</title>
-        <link href="http://fonts.googleapis.com/cssfamily=Open+Sans:300italic,400italic,700italic,400,300,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
@@ -86,20 +85,20 @@
                     Фильтр:
                 </h3>
                 <form class="filter">
-                <div class="filter-range">
-                    <div class="filter-range-title">Цена:</div>
-                    <div class="range-controls">
-                        <div class="scale">
-                            <div class="bar"></div>
+                    <div class="filter-range">
+                        <div class="filter-range-title">Цена:</div>
+                        <div class="range-controls">
+                            <div class="scale">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="toggle min-toggle"></div>
+                            <div class="toggle max-toggle"></div>
                         </div>
-                        <div class="toggle min-toggle"></div>
-                        <div class="toggle max-toggle"></div>
+                        <div class="price-controls">
+                            <input class="min-price" type="text" value="0">
+                            <input class="max-price" type="text" value="30000">
+                        </div>
                     </div>
-                    <div class="price-controls">
-                        <input class="min-price" type="text" value="0">
-                        <input class="max-price" type="text" value="30000">
-                    </div>
-                </div>
                     <legend  align="center">Производители:</legend>
                     <fieldset class="filter-group filter-producers">              
                         <label>  
@@ -123,8 +122,8 @@
                             Hitachi
                         </label>
                     </fieldset>
-                    <legend>Питание:</legend>
                     <fieldset class="filter-group filter-product">
+                    <legend>Питание:</legend>
                         <label>
                             <input type="radio" name="product" value="аккумуляторные" checked>
                             Аккумуляторные
@@ -134,8 +133,8 @@
                             Сетевые
                         </label>
                     </fieldset>
-                <a class="filter-btn" href="#">показать</a>
-            </form>
+                <button class="filter-btn" type="#">показать</button>
+                </form>
             </div>
             <section class="item clearfix">
                 <div class="sorting-line clearfix">
