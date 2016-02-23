@@ -323,20 +323,25 @@ article h2{
     width: 940px;
 }
 .breadcrumbs{
-    width: 420px;
+    width: 940px;
     list-style-image: url('../img/icon-right.png');
     text-transform: uppercase;
     text-align: left;
     margin-top: -10px;
-    margin-left: -45px;
 }
 .breadcrumbs li{
     float: left;
+    width: 150px;
     margin-right: 10px;
     padding-right: 20px;
+    list-style-position: inside;
+}
+.breadcrumbs a{
+    text-decoration: none;
 }
 .breadcrumbs li:nth-child(1){
     list-style: none;
+    width: 20px;
 }
 .icon-home{
     color: #c1c6ce;
@@ -666,14 +671,14 @@ section .popular{
     width: 254px;
     height: 20px;
 }
-.popular-brands div{
+.popular-brands a{
     float: left;
     height: 143px;
     margin-right: 20px;
     margin-bottom: 18px;
     border: 1px solid grey;
 }
-.popular-brands div:nth-child(4n+4){
+.popular-brands a:nth-child(4n+4){
     margin-right: 0px;
 }
 .item{
