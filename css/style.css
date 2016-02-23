@@ -616,7 +616,7 @@ section .popular{
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    background: url("../img/btn-copy-12.png") no-repeat;
+    background: #000000 url("../img/btn-copy-12.png") no-repeat;
     padding: 10px;
 }
 .product-item-name{
@@ -654,7 +654,7 @@ section .popular{
     width: 60px;
     height: 60px;
     content: '';
-    background: url("../img/new.png") no-repeat 0 0;
+    background: #000000 url("../img/new.png") no-repeat 0 0;
 }
 .popular h2{
     float: left;
@@ -862,13 +862,13 @@ section .popular{
     color: #32425c;
 }
 .service-text:nth-child(1){
-    background: url('../img/delivery.png') no-repeat 80% 5%;
+    background: #f2f6f8 url('../img/delivery.png') no-repeat 80% 5%;
 }
 .service-text:nth-child(2){
-    background: url('../img/guarantee.png') no-repeat 80% 5%;
+    background: #f2f6f8 url('../img/guarantee.png') no-repeat 80% 5%;
 }
 .service-text:nth-child(3){
-    background: url('../img/credit.png') no-repeat 80% 5%;
+    background: #f2f6f8 url('../img/credit.png') no-repeat 80% 5%;
 }
 .service-text{
     display: none;
