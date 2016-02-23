@@ -616,7 +616,7 @@ section .popular{
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    background: #000000 url("../img/btn-copy-12.png") no-repeat;
+    background:  url("../img/btn-copy-12.png") no-repeat;
     padding: 10px;
 }
 .product-item-name{
@@ -654,7 +654,7 @@ section .popular{
     width: 60px;
     height: 60px;
     content: '';
-    background: #000000 url("../img/new.png") no-repeat 0 0;
+    background:  url("../img/new.png") no-repeat 0 0;
 }
 .popular h2{
     float: left;
