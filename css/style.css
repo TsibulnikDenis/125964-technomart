@@ -370,7 +370,7 @@ h1{
     text-align: left;
     padding: 0px;
     color: rgba(0, 0, 0, 0.3);
-    border-bottom:    1px dotted #ee3643;
+    border-bottom: 1px dotted #ee3643;
     margin-left: 70px;
 }
 .sorting-line a:nth-child(6){
@@ -435,7 +435,7 @@ h1{
     top: 30px
 }
 .range-controls{
-position: relative;
+    position: relative;
     height: 80px;
     margin-bottom: 8px;
     margin-top: 20px;
