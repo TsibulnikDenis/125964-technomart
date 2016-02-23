@@ -3,11 +3,11 @@
 body{
     font-size: 13px;
     line-height: 24px;
+    margin: 0px auto;
     color: #000000;
     font-weight: 400;
     font-family: 'Cuprum', Arial, sans-serif;
     width: 1200px;
-    vertical-align: middle;
     text-align: center;
 }
 @font-face{
@@ -67,8 +67,7 @@ body{
     margin-bottom: 27px;
 }
 .container{
-    float: left;
-    margin-left: 130px;
+    margin: 0px auto;
     width: 940px;
 }
 article h2{
