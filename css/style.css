@@ -100,7 +100,7 @@ article h2{
 .logo{
     float: left;
     width: 220px;
-    height: 40;
+    height: 40px;
     border-bottom: 5px solid darkred;
     margin-right: 10px; 
     text-align: center;
@@ -221,7 +221,7 @@ article h2{
     
 }
 .user-block{
-    width: 280;
+    width: 280px;
     height: 45px;
     float: right;
     margin-top: 18px;
@@ -342,7 +342,7 @@ article h2{
 }
 h1{
     width: 880px;
-    min-height: 89;
+    min-height: 89px;
     text-align: left;
     padding: 30px;
     text-transform: uppercase;
@@ -681,7 +681,7 @@ section .popular{
     margin-bottom: 55px;
 }
 .item-info{
-    width: 940 px;
+    width: 940px;
     float: left
 }
 .service article{
