@@ -849,6 +849,42 @@ section .popular{
     font-size: 13px;
     
 }
+.arrows {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: top;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrows label[for="btn-1"]::before {
+  font-family: "symbols-technomart";
+  content: "\3c";
+  color: #fff;
+  position: absolute;
+  z-index: 50;
+  top: 120px;
+  left: 25px;
+  cursor: pointer;
+  text-transform: none;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.arrows label[for="btn-2"]::before {
+  font-family: "symbols-technomart";
+  content: "\3e";
+  color: #fff;
+  position: absolute;
+  z-index: 50;
+  top: 120px;
+  right: 21px;
+  cursor: pointer;
+  font-size: 45px;
+  text-transform: none;
+  text-decoration: none;
+}
 .slider{
     position: relative;
     width: 620px;
@@ -859,6 +895,7 @@ section .popular{
 .slide{
     min-height: 266px;
     width: 620px;
+    margin-top: -23px;
     background-repeat: no-repeat;
     background-position: 100% 100%;
 }
@@ -899,7 +936,7 @@ section .popular{
 .slide p{
     font-family: 'PT Sans',  Arial, sans-serif;
     font-size: 18px;
-    
+    margin-top: 6px;
     color: #ffffff;
     text-align: left;
     padding-left: 22px;
@@ -907,8 +944,8 @@ section .popular{
 .btn-slide{
     display: block;
     position: relative;
-    left: 27px;
-    top: 97px;
+    left: 25px;
+    top: 105px;
     width: 193px;
     height: 18px;
 }
