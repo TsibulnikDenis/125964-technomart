@@ -64,7 +64,7 @@ body{
     background-color: #F1F5F7;
     width: 1200px;
     height: 320px;
-    margin-bottom: 27px;
+    margin-bottom: 20px;
 }
 .container{
     margin: 0px auto;
@@ -320,27 +320,33 @@ article h2{
 }
 .catalog{
     width: 940px;
+    margin: 0px auto;
 }
 .breadcrumbs{
     width: 940px;
     list-style-image: url('../img/icon-right.png');
     text-transform: uppercase;
     text-align: left;
-    margin-top: -10px;
+    padding: 0px;
+    margin: 0px;
 }
 .breadcrumbs li{
-    float: left;
-    width: 150px;
-    margin-right: 10px;
-    padding-right: 20px;
-    list-style-position: inside;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 32px;
+    font-family: 'PT Sans',  Arial, sans-serif;
 }
 .breadcrumbs a{
+    color: #000000;
     text-decoration: none;
+    
 }
 .breadcrumbs li:nth-child(1){
     list-style: none;
     width: 20px;
+}
+.breadcrumbs li:last-child{
+    padding-left: 7px;
 }
 .icon-home{
     color: #c1c6ce;
@@ -348,13 +354,14 @@ article h2{
 }
 h1{
     width: 880px;
-    min-height: 89px;
+    min-height: 59px;
     text-align: left;
     padding: 30px;
+    padding-bottom: 0px;
     text-transform: uppercase;
     color: #32425c;
     font-size: 30px;
-    
+    font-family: 'Cuprum', Arial, sans-serif;
     background-color: #f2f6f8;
 }
 .sorting-line{
