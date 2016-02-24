@@ -6,7 +6,7 @@ body{
     margin: 0px auto;
     color: #000000;
     font-weight: 400;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     width: 1200px;
     text-align: center;
 }
@@ -128,7 +128,7 @@ article h2{
 }
 .top-menu-search input{
     color: #ffffff;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 17px;
     background-color: #293449;
     float: left;
@@ -337,7 +337,7 @@ article h2{
 }
 .breadcrumbs{
     width: 940px;
-    list-style-image: url('../img/icon-right.png');
+    list-style-image: url("../img/icon-right.png");
     text-transform: uppercase;
     text-align: left;
     padding: 0px;
@@ -347,7 +347,7 @@ article h2{
     display: inline-block;
     vertical-align: top;
     margin-right: 32px;
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
 }
 .breadcrumbs a{
     color: #000000;
@@ -374,12 +374,12 @@ h1{
     text-transform: uppercase;
     color: #32425c;
     font-size: 30px;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     background-color: #f2f6f8;
 }
 .sorting-line{
     margin-bottom: 20px;
-    font-family: 'PT Sans',    Arial, sans-serif;
+    font-family: "PT Sans",    Arial, sans-serif;
     background-color: #f7f3ec;
     padding-top: 7px;
     height: 30px;
@@ -390,7 +390,7 @@ h1{
     text-transform: uppercase;
 }
 .sorting-line ul{
-     font-family: 'PT Sans',  Arial, sans-serif; 
+     font-family: "PT Sans", Arial, sans-serif; 
     display: inline-block;
     vertical-align: top;
     padding: 0;
@@ -505,7 +505,7 @@ h1{
     position: relative;
 }
 .price-controls::after{
-    content: '—';
+    content: "—";
     position: absolute;
     left: 100px;
     top: 10px;
@@ -547,7 +547,7 @@ h1{
     width: 220px;
     float: left;
     padding: 0px;
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
 }
 .scale{
     position: relative;
@@ -580,7 +580,7 @@ h1{
     left: 160px;;
 }
 .wrapper-filter h3{
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     display: block;
@@ -592,7 +592,7 @@ h1{
     background-color: #f7f3ec;
 }
 .filter legend{
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 17px;
     display: block;
@@ -656,7 +656,7 @@ section .popular{
     float: left;
     width: 218px;
     height: 316px;
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
@@ -681,7 +681,7 @@ section .popular{
     margin-bottom: 8px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
     border-radius: 3%;
@@ -728,7 +728,7 @@ section .popular{
     left: 43px;
     width: 121px;
     height: 20px;
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 17px;
     color: #ffffff;
@@ -742,7 +742,7 @@ section .popular{
     display: block;
     width: 188px;
     height: 38px;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 18px;
     color: #000;
     font-weight: bold;
@@ -772,7 +772,7 @@ section .popular{
     z-index: 10;
     width: 60px;
     height: 60px;
-    content: '';
+    content: "";
     background:  url("../img/new.png") no-repeat 0 0;
 }
 .popular h2{
@@ -816,7 +816,7 @@ section .popular{
 .service article{
     width: 400px;
     text-align: left;
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     
 }
@@ -836,7 +836,7 @@ section .popular{
 }
 .catalog-promo{
     font-size: 30px;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     text-align: left;
     background-color: #f2f6f8;
     padding-top: 45px;
@@ -848,7 +848,7 @@ section .popular{
     font-size: 30px;
 }
 .promo-text-content{
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
 }
 .arrows {
@@ -935,7 +935,7 @@ section .popular{
     text-align: left;
 }
 .slide p{
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 18px;
     margin-top: 6px;
     color: #ffffff;
@@ -992,13 +992,13 @@ section .popular{
     margin-top: 27px;
 }
 .service-menu::after{
-    content: '';
+    content: "";
     position: absolute;
     right: -7px;
     top: -35px;
     width: 10px;
     height: 222px;
-    background: url('../img/border1.jpg') no-repeat;
+    background: url("../img/border1.jpg") no-repeat;
 }
 .slider-text{
     margin-top: 45px;
@@ -1021,13 +1021,13 @@ section .popular{
     color: #32425c;
 }
 .service-text:nth-child(1){
-    background: #f2f6f8 url('../img/delivery.png') no-repeat 154px 20px;
+    background: #f2f6f8 url("../img/delivery.png") no-repeat 154px 20px;
 }
 .service-text:nth-child(2){
-    background: #f2f6f8 url('../img/guarantee.png') no-repeat 154px 20px;
+    background: #f2f6f8 url("../img/guarantee.png") no-repeat 154px 20px;
 }
 .service-text:nth-child(3){
-    background: #f2f6f8 url('../img/credit.png') no-repeat 154px 20px;
+    background: #f2f6f8 url("../img/credit.png") no-repeat 154px 20px;
 }
 .service-text{
     display: none;
@@ -1081,10 +1081,10 @@ section .popular{
     width: 520px;
     float: left;
     text-align: left;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 .info-about p{
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     padding: 4px 0px;
 }
@@ -1307,7 +1307,7 @@ footer{
     height: 33px;
     border: 2px solid #d7dcde;
     color: #d7dcde;
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     margin-top: 8px;
     padding-left: 13px;
@@ -1367,7 +1367,7 @@ footer{
     padding: 10px 15px;
     border: 1px solid #e5e5e5;
     color: black;
-    font-family: 'PT Sans',  Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     text-transform: uppercase;
     border-radius: 5%;
 }
