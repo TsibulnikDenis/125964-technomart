@@ -699,7 +699,10 @@ section .popular{
     width: 700px;
     float: left;
     margin-left: 20px;
-    margin-bottom: 28px;
+    margin-bottom: 55px;
+}
+.brands{
+    margin-bottom: 69px;
 }
 .item-info{
     width: 940px;
@@ -713,10 +716,11 @@ section .popular{
     
 }
 .promo-text{
+    width: 1070px;
     float: left;
     text-align: left;
     background-color: #f2f6f8;
-    padding-top: 48px;
+    padding-top: 43px;
     padding-left: 130px;
     padding-bottom: 60px;
     height: 420px;
@@ -742,7 +746,6 @@ section .popular{
     font-size: 13px;
     
 }
-.catalog-promo{}
 .slider{
     position: relative;
     width: 620px;
@@ -825,7 +828,7 @@ section .popular{
 .service-menu li{
     display: block;
     width: 240px;
-    height: 58px;
+    height: 60px;
     list-style: none;
     font-size: 21px;
     color: #ffffff;
@@ -834,9 +837,9 @@ section .popular{
 }
 .service-menu label{
     display: block;
-    padding: 20px;
+    padding: 19px;
     width: 200px;
-    height: 10px;
+    height: 12px;
     cursor: pointer;
 }
 .service-menu{
@@ -845,7 +848,7 @@ section .popular{
     width: 240px;
     padding: 0px;
     margin: 0px;
-    margin-top: 25px;
+    margin-top: 27px;
 }
 .service-menu::after{
     content: '';
@@ -866,7 +869,8 @@ section .popular{
     position: relative;
     width: 740px;
     float: left;
-    padding-left: 50px;
+    padding-left: 77px;
+    padding-top: 25px;
     height: 270px;
 }
 .service-text h3{
@@ -876,13 +880,13 @@ section .popular{
     color: #32425c;
 }
 .service-text:nth-child(1){
-    background: #f2f6f8 url('../img/delivery.png') no-repeat 80% 5%;
+    background: #f2f6f8 url('../img/delivery.png') no-repeat 154px 20px;
 }
 .service-text:nth-child(2){
-    background: #f2f6f8 url('../img/guarantee.png') no-repeat 80% 5%;
+    background: #f2f6f8 url('../img/guarantee.png') no-repeat 154px 20px;
 }
 .service-text:nth-child(3){
-    background: #f2f6f8 url('../img/credit.png') no-repeat 80% 5%;
+    background: #f2f6f8 url('../img/credit.png') no-repeat 154px 20px;
 }
 .service-text{
     display: none;
@@ -907,8 +911,9 @@ section .popular{
 }
 .service-info p{
     width: 275px;
-    overflow: hidden;
+    padding-top: 5px;
     min-height: 100px;
+    margin-top: -10px;
 }
 .credit-btn{
     width: 195px;
@@ -942,6 +947,7 @@ section .popular{
     font-size: 13px;
     padding: 4px 0px;
 }
+
 .info-contact{
     float: right;
     width: 300px;
