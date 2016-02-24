@@ -497,20 +497,6 @@ h1{
 .sorting-line li:nth-child(5) a:active::before{
   color: #ee3643;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .filter-range{
     width: 220px;
     text-transform: uppercase;
@@ -568,6 +554,7 @@ h1{
     width: 220px;
     float: left;
     padding: 0px;
+    font-family: 'PT Sans',  Arial, sans-serif;
 }
 .scale{
     position: relative;
@@ -600,7 +587,8 @@ h1{
     left: 160px;;
 }
 .wrapper-filter h3{
-    font-family: Cuprum, PTSans;
+    font-family: 'PT Sans',  Arial, sans-serif;
+    font-size: 13px;
     text-transform: uppercase;
     display: block;
     width: 186px;
@@ -611,20 +599,29 @@ h1{
     background-color: #f7f3ec;
 }
 .filter legend{
+    font-family: 'PT Sans',  Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
     display: block;
     text-align: left;
-    margin: 0px;
+    padding-top: 10px;
+    margin-bottom: 14px;
 }
 .filter-group{
     border:none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 .filter-group label{
     float: left;
     width: 201px;
-    margin-left: -12px;
+    font-size: 15px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-weight: bold;
+    padding-left: 15px;
+    padding-top: 2px
 }
 form{
     text-transform: uppercase;
