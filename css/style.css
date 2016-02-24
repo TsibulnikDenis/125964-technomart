@@ -183,6 +183,7 @@ article h2{
     width: 940px;
 }
 .top-menu-info-title{
+    margin-top: -5px;
     float: left;
     width: 200px;
     min-height: 60px;
@@ -195,55 +196,56 @@ article h2{
     line-height:1.438;
 }
 .top-menu-info-contact{
-    width: 273px;
+    width: 268px;
     float: left;
     margin-left: 65px;
-    margin-top: 18px;
+    margin-top: 13px;
     text-align: left
 }
 .contact-phone{
     font-size: 21px;
     color: #e9292a;
-    width: 266px;
+    width: 250px;
     border: 3px solid white;
     text-align: center;
-    padding: 6px;
-    margin-bottom: 2px;
+    padding: 5px;
+    margin-bottom: -2px;
     text-align: left;
 }
 .icon-phone{
-    margin-right: 38px;
+    margin-right: 36px;
     text-align: left;
     color: #c5c5c5;
 }
 .contact-address{
     font-size: 14px;
+    padding: 8px;
     
 }
 .user-block{
-    width: 285px;
+    width: 295px;
     height: 45px;
     float: right;
-    margin-top: 18px;
+    margin-top: 10px;
     margin-left: 0px;
     color: black;
 }
 .user-card{
-    width: 285px;
+    width: 289px;
     height: 37px;
     font-size: 21px;
     text-align: left;
-    
     background-color: #fff;
-    padding: 8px 5px 0px 10px;
+    padding: 8px 5px 0px 5px;
 }
 .icon-logout{
     float: right;
     color: #c5c5c5;
+    text-decoration: none;
 }
 .icon-user{
     float: left;
-    margin-right: 8px;
+    margin-right: 6px;
     color: #c5c5c5;
 }
 .user-actions a{
