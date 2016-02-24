@@ -715,6 +715,10 @@ section .popular{
     font-size: 13px;
     
 }
+.info-about,
+.info-contact{
+    margin-top: 55px;
+}
 .promo-text{
     width: 1070px;
     float: left;
@@ -728,7 +732,6 @@ section .popular{
 .catalog-promo{
     font-size: 30px;
     font-family: 'Cuprum', Arial, sans-serif;
-    float: left;
     text-align: left;
     background-color: #f2f6f8;
     padding-top: 45px;
@@ -1097,7 +1100,6 @@ footer{
     width: 230px;
     text-align: left;
     font-size: 16px;
-    
 }
 .bottom-footer-social a{
     float: left;
@@ -1118,15 +1120,27 @@ footer{
 .bottom-footer-social a:active{
     background-color: #ee3643;
 }
-.bottom-footer-contact p{
-    margin-top: 38px;
+.bottom-footer-contact{
+    width: 330px;
     float: right;
-    width: 135px;
-    margin-left: 28px;
+    margin-left: 85px;
+}
+.bottom-footer-social{
+    float: left;
+}
+.bottom-footer-contact p{
+    float: left;
+    margin-top: 38px;
+    width: 115px;
     font-size: 16px;
     line-height: 18px;
     color: #ffffff;
     text-align: left;
+    margin-left: 30px;
+}
+.bottom-footer-contact p:nth-child(2){
+    float: right;
+    margin-right: -2px;
 }
 .bottom-footer-contact a{
     text-decoration: none;
