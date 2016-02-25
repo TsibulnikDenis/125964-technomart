@@ -3,7 +3,7 @@
 body{
     font-size: 13px;
     line-height: 24px;
-/*    margin: 0px auto;*/
+    margin: 0px auto;
     color: #000000;
     font-weight: 400;
     font-family: "Cuprum", Arial, sans-serif;
@@ -901,10 +901,10 @@ section .popular{
     background-position: 100% 100%;
 }
 .slide:nth-child(1){
-    background-image: url("../img/slider.jpg");
+    background: #d3d0cd url("../img/slider.jpg") no-repeat;
 }
 .slide:nth-child(2){
-    background-image: url("../img/slider1.jpg");
+    background: #d3d0cd url("../img/slider1.jpg")no-repeat;
 }
 .slider input[type="radio"]{
     display: none;
