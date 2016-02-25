@@ -337,16 +337,15 @@ article h2{
 }
 .breadcrumbs{
     width: 940px;
-    list-style-image: url("../img/icon-right.png");
     text-transform: uppercase;
     text-align: left;
     padding: 0px;
     margin: 0px;
 }
 .breadcrumbs li{
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 32px;
+    list-style-image: url('../img/icon-right.png');
+    float: left;
+    margin-right: 35px;
     font-family: "PT Sans", Arial, sans-serif;
 }
 .breadcrumbs a{
@@ -358,11 +357,12 @@ article h2{
     width: 20px;
 }
 .breadcrumbs li:last-child{
-    padding-left: 7px;
+    padding-left: 9px;
 }
 .icon-home{
     color: #c1c6ce;
     font-size: 16px;
+    margin-top: -3px;
 }
 h1{
     width: 880px;
