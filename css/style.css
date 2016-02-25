@@ -3,7 +3,7 @@
 body{
     font-size: 13px;
     line-height: 24px;
-    margin: 0px auto;
+/*    margin: 0px auto;*/
     color: #000000;
     font-weight: 400;
     font-family: "Cuprum", Arial, sans-serif;
@@ -1155,19 +1155,19 @@ section .popular{
 }
 .item-01{
     position: relative;
-    background: #F6B22D url("../img/layer92.png") no-repeat scroll 212px 30px;
+    background: #F6B22D url("../img/sprite.png") no-repeat 183px -255px;
 }
 .item-02{
-    background: #4AAFDE url("../img/layer96.png")  no-repeat scroll 198px 30px;
+    background: #4AAFDE url("../img/sprite.png") no-repeat 165px -500px;
 }
 .item-03{
-    background: #CC79D1 url("../img/layer95.png") no-repeat scroll 193px 30px;
+    background: #CC79D1 url("../img/sprite.png") no-repeat scroll 162px -380px;
 }
 .item-04{
-    background: #85D179 url("../img/layer100.png") no-repeat scroll 195px 26px;
+    background: #85D179 url("../img/sprite.png") no-repeat 165px -1px;
 }
 .item-05{
-    background: #F6B22D url("../img/layer101.png") no-repeat scroll 192px 30px;
+    background: #F6B22D url("../img/sprite.png") no-repeat scroll 162px -131px;
 }
 footer{
     color: #fff;
